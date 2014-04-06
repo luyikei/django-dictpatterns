@@ -1,0 +1,1 @@
+from .dictpatterns import DictPatterns

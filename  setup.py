@@ -1,0 +1,22 @@
+from setuptools import setup, find_packages
+
+setup(name='django-dictpatterns',
+      version='0.1',
+      description='A simple urlpatterns with dictionary for Django',
+      author='luyikei',
+      author_email='luyikei.qmltu@gmail.com',
+      url='http://www.bitbucket.org/ubernostrum/django-registration/',
+      download_url='https://bitbucket.org/ubernostrum/django-registration/downloads/django-registration-1.0.tar.gz',
+      package_dir={'dictpatterns': 'dictpatterns'},
+      packages=find_packages(),
+      include_package_data=True,
+      classifiers=['Development Status :: 3 - Alpha',
+                   'Environment :: Web Environment',
+                   'Framework :: Django',
+                   'Intended Audience :: Developers',
+                   'License :: OSI Approved :: MIT License',
+                   'Operating System :: OS Independent',
+                   'Programming Language :: Python',
+                   'Topic :: Software Development :: Libraries :: Python Modules',
+                   'Topic :: Utilities'],
+)
