@@ -36,7 +36,7 @@ In urls.py, you can write urlpatterns by using dictionary.
 In template
 ===========
 
-For the sake of this format, you can trace the parent url of a page.
+Because of this format, you can trace the parent url of a page.
 You can display the parent url in template.
 
 .. code-block:: html
