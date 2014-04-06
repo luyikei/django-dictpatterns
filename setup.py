@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
 setup(name='django-dictpatterns',
-      version='0.2',
+      version='0.2.1',
       description='This makes your application be able to write simple urlpatterns with dictionary for Django',
       author='luyikei',
       author_email='luyikei.qmltu@gmail.com',
       url='https://github.com/luyikei/django-dictpatterns',
-      download_url='https://github.com/luyikei/django-dictpatterns/archive/0.2.zip',
+      download_url='https://github.com/luyikei/django-dictpatterns/archive/0.2.1.zip',
       package_dir={'dictpatterns': 'dictpatterns'},
       packages=find_packages(),
       include_package_data=True,
