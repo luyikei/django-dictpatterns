@@ -54,6 +54,6 @@ You can display the parent url in template.
 Settings
 ========
 
-Make sure of writing DictPatterns in your ROOT_URLCONF. 
+Make sure of writing DictPatterns in your urls which is distinguished as ROOT_URLCONF. 
 And distinguish the root of DictPatterns as ROOT_DICTPATTERNS_NAME in settings.py if you need. Default value is "UrlDictPatterns".
 
